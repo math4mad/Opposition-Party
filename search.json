@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this project."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Opposition Party",
+    "section": "",
+    "text": "Welcome. This site is published from the ph-pages/ directory of the Opposition-Party repository using Quarto and GitHub Actions."
+  }
+]
