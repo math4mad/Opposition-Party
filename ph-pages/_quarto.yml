@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Opposition Party"
+  description: "Notes and pages from the Opposition Party project."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/math4mad/Opposition-Party
+  page-footer:
+    left: "© 2026 Opposition Party"
+    right:
+      - text: "Source"
+        href: https://github.com/math4mad/Opposition-Party
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  echo: true

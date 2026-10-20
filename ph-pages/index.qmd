@@ -1,0 +1,7 @@
+---
+title: "Opposition Party"
+---
+
+Welcome. This site is published from the `ph-pages/` directory of the
+[Opposition-Party](https://github.com/math4mad/Opposition-Party) repository
+using Quarto and GitHub Actions.
