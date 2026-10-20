@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - Idea.qmd
     right:
       - icon: github
         href: https://github.com/math4mad/Opposition-Party

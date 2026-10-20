@@ -1,4 +1,36 @@
-/* Site styles for ph-pages */
+/* Site styles for notes */
 body {
   font-size: 17px;
+}
+
+/* Chat transcript blocks (Idea.qmd) */
+.chat-user,
+.chat-agent {
+  border-left: 4px solid #ccc;
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  margin: 1rem 0;
+  background-color: #f7f7f7;
+}
+
+.chat-user {
+  border-left-color: #2c7fb8;
+  background-color: #eef5fb;
+}
+
+.chat-agent {
+  border-left-color: #d95f0e;
+  background-color: #fdf3ec;
+}
+
+.chat-user > p:first-child,
+.chat-agent > p:first-child {
+  margin-top: 0;
+}
+
+.chat-thinking {
+  border-left: 3px solid #bbb;
+  padding-left: 0.8rem;
+  color: #555;
+  font-size: 0.95em;
 }
