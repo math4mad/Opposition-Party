@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "ph-pages/**"
+      - "notes/**"
       - ".github/workflows/quarto-publish.yml"
   workflow_dispatch:
 
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ph-pages
+        working-directory: notes
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -57,7 +57,7 @@ jobs:
           cd .publish
           git reset --hard
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-          cp -R "$GITHUB_WORKSPACE/ph-pages/_site/." .
+          cp -R "$GITHUB_WORKSPACE/notes/_site/." .
           touch .nojekyll
           git add -A
           git commit -m "Publish site: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || echo "no changes to publish"

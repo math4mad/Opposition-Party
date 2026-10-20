@@ -1,4 +1,4 @@
-ph-pages/_site/
-ph-pages/.quarto/
+notes/_site/
+notes/.quarto/
 .Rproj.user/
 .DS_Store
